@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {% load static %}
+	{% load static %}
 	<title>Главная</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -222,7 +222,7 @@
 
 	<!-- Sidebar (hidden by default) -->
 	<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:10%;min-width:300px" id="mySidebar">
-		<a href="javascript:void(0)" id="zakryt" class="w3-bar-item w3-button">Закрыть</a>
+		<span href="javascript:void(0)" id="zakryt" class=" w3-button w3-display-topright w3-large">X</span>
 		<a href="#food" class="w3-bar-item w3-button detektiv">Детектив</a>
 		<a href="#about" class="w3-bar-item w3-button detskaia">Детская</a>
 		<a href="#about" class="w3-bar-item w3-button">Драма</a>
@@ -257,8 +257,8 @@
 				<div class="w3-quarter">
 					<h3 data-nazv="Инферно" data-img="zb2.jpg" data-avtor="Дэн Браун" data-city="США" data-year="2013" data-janr="Триллер" data-lang="на русский" data-vozrast="16+" data-embed="begi.pdf" data-text="Профессор Лэнгдон очнулся в больнице. Последние два дня пропали из его памяти, что дало старт странным событиям…
 					За Лэнгдоном ведется охота. Но почему? Теперь ему предстоит перемещаться из города в город, чтобы спасти свою жизнь, узнать, что же произошло за эти два дня, и разгадать загадку, зашифрованную в «Божественной комедии» Данте, чтобы спасти человечество от надвигающейся беды по имени «Инферно».
-					«Инферно» – четвертая по счету книга о приключениях профессора Роберта Лэнгдона – специалиста по Средневековью. Дэн Браун порадовал читателей еще одним романом с полюбившимся героем из «Кода да Винчи». Вас ждут интересные загадки, динамичный сюжет и любопытные исторические и культурологические вставки.">ИНферно</h3>
-					<img src="{% static "polls/books/детектив/инферно.jpg" %}" alt="inferno" style="width:100%">
+					«Инферно» – четвертая по счету книга о приключениях профессора Роберта Лэнгдона – специалиста по Средневековью. Дэн Браун порадовал читателей еще одним романом с полюбившимся героем из «Кода да Винчи». Вас ждут интересные загадки, динамичный сюжет и любопытные исторические и культурологические вставки.">Инферно</h3>
+					<img src="{% static "polls/books/детектив/инферно.jpg" %}" alt="inferno" style="width:50%">
 					<p></p>
 				</div>
 				<!--End inferno-->
@@ -268,7 +268,7 @@
 					<h3 data-nazv="Химик" data-img="de3.jpe" data-avtor="Стефани Майер" data-city="США" data-year="2016" data-janr="Детектив" data-lang="на русский" data-vozrast="16+" data-embed="" data-text="Ее кодовое имя «Химик». Она работала на правительственную службу США такой степени секретности, что у нее не было названия, и хранила секреты, способные нарушить мировой баланс. А потом кто-то из ее работодателей решил, что эта женщина знает слишком много…
 					У нее не осталось ничего: ни настоящего имени, ни близких, ни жизни, ни будущего. Ничего, кроме желания выжить любой ценой, – пусть даже для этого придется в последний раз выполнить задание бывшего начальства.
 					Решив играть по собственным правилам, она готовится к самой жестокой битве в своей жизни, но встречает человека, который делает ее более уязвимой… Чтобы избежать гибели, ей предстоит использовать все свои знания и вспомнить, почему ее считали лучшей из лучших в этой непростой профессии…">Химик</h3>
-					<img src="{% static "polls/books/детектив/химик.jpg" %}" alt="himik" style="width:100%">
+					<img src="{% static "polls/books/детектив/химик.jpg" %}" alt="himik" style="width:50%">
 				</div>
 				<!--Oko razuma-->
 				<div class="w3-quarter">
@@ -276,12 +276,12 @@
 					Осознав, что тонет в этом тлетворном облаке, он запаниковал, но почему-то никак не мог вдохнуть, словно позабыл, как это делается; будто его мозговые связи, запускающие непроизвольную дыхательную реакцию, были начисто перерезаны садовым секатором и больше не вели к груди или легким. Он не сомневался, что жить ему остаются считаные секунды.
 					И вдруг на малую часть его рассудка снизошло озарение, и он понял, что вовсе не тонет, а пребывает в самой гуще яркого реалистичного кошмара, и его дыхательный рефлекс отказал, потому что он находится в мире грез, а его физическое тело спит и парализовано. Он вложил всю свою волю в мощный рывок, чтобы сбросить сокрушительно тяжкую пелену забытья, и мгновение спустя все его сознание вырвалось на поверхность, как ныряльщик, слишком долго пробывший в сумрачных и холодных океанских глубинах и ускользнувший от смерти как раз вовремя.
 					" >Око разума</h3>
-					<img src="{% static "polls/books/детектив/око.jpg" %}" alt="oko razuma" style="width:100%">
+					<img src="{% static "polls/books/детектив/око.jpg" %}" alt="oko razuma" style="width:50%">
 				</div>
 				<!--Nasledie-->
 				<div class="w3-quarter">
 					<h3 data-nazv="Наследие" data-img="16.jpeg" data-avtor="Бентли Литтл" data-city="США" data-year="2009" data-janr="Детектив" data-lang="на русский" data-vozrast="18+" data-embed="begi.pdf" data-text="Джозефа Ная уложили в госпиталь в тяжелом состоянии; недолго осталось ему жить на этой земле. Кроме того, рассудок старика помутился, и практически все время он проводит либо в забытьи, либо в жутких приступах безумия. Но однажды, в один из редких периодов просветления, Джозеф взглянул на своего сына Стива и произнес: «Я ее убил». И это были последние внятные слова, которые он сказал. Изумленный и испуганный Стив решил во что бы то ни стало выяснить, кого, когда и за что убил его отец. Хотя бы потому, что он почему-то уверен: это окажется крайне важно для него самого…">Наследие</h3>
-					<img src="{% static "polls/books/детектив/наследие.jpg" %}" alt="nasledie" style="width:100%">
+					<img src="{% static "polls/books/детектив/наследие.jpg" %}" alt="nasledie" style="width:50%">
 				</div>
 			</div>
 			<!--End detektiv-->
@@ -296,7 +296,7 @@
 					Уютным, родным когда-то был этот заброшенный дом, и мы — ещё дети, ребята — бывали частенько в нём.
 					Владел этим местом в то время любимый наш старый дед, и памяти тяжкое бремя тащил уже много лет.
 					Он помнил, что тут однажды пропал его старший брат, и каждый день жизни, — каждый! — хотел отмотать всё назад.">Беги Диппер Беги</h3>
-					<img src="{% static "polls/books/Детский/беги диппер.jpg"%}" alt="begi dipper" style="width:100%">
+					<img src="{% static "polls/books/Детский/беги диппер.jpg"%}" alt="begi dipper" style="width:50%">
 				</div>
 				<!--End Go Dipper go-->
 
@@ -305,7 +305,7 @@
 					<h3 data-nazv="Вокруг света за 80 дней" data-img="14.jpg" data-avtor="Л. Марайя" data-city="США" data-year="1873" data-janr="Детский" data-lang="на русский" data-vozrast="0+" data-embed="begi.pdf"
 					data-text="«Вокруг света в восемьдесят дней» – один из лучших романов Жюля Верна. Увлекательная история Филеаса Фогга, его неунывающего слуги Паспарту и их потрясающего воображение кругосветного путешествия, полного опасных приключений, знакома нам с детства – по многочисленным фильмам и мультфильмам. Но насколько они отличаются от произведения самого Жюля Верна?
 					Читателям предстоит понять это, открыв для себя великолепную книгу, полную живого и тонкого юмора.">Вокруг света за 80 дней</h3>
-					<img src="{% static "polls/books/Детский/вокруг света 80 дней.jpg" %}" alt="vokrug sveta za 80 dnei" style="width:100%">
+					<img src="{% static "polls/books/Детский/вокруг света 80 дней.jpg" %}" alt="vokrug sveta za 80 dnei" style="width:50%">
 				</div>
 				<!--End Vokrug sveta za 80 dnei-->
 
@@ -314,28 +314,41 @@
 					<h3 data-nazv="Маленький принц" data-img="14.jpg" data-avtor="Антуан де Сент-Экзюпери" data-city="США" data-year="1943" data-janr="Детский" data-lang="на русский" data-vozrast="0+" data-embed="begi.pdf"
 					data-text="Самое знаменитое произведение Антуана де Сент-Экзюпери с авторскими рисунками. Мудрая и «человечная» сказка-притча, в которой просто и проникновенно говорится о самом важном: о дружбе и любви, о долге и верности, о красоте и нетерпимости к злу.
 					«Все мы родом из детства», – напоминает великий француз и знакомит нас с самым загадочным и трогательным героем мировой литературы.">Маленький принц</h3>
-					<img src="{% static "polls/books/Детский/маленький принц.jpg" %}" alt="vokrug sveta za 80 dnei" style="width:100%">
+					<img src="{% static "polls/books/Детский/маленький принц.jpg" %}" alt="vokrug sveta za 80 dnei" style="width:50%">
 				</div>
 				<!--End malenkii princ-->
 			</div>
 			<!--End detskaia-->
 
-             <!--drama-->
-			<div class="w3-row-padding w3-padding-16 w3-center book" id="drama">
-				<!--Set' i butterfly-->
+			<!--nauka and educ-->
+			<div class="w3-row-padding w3-padding-16 w3-center book" id="nauka">
+				<!--О системе-->
 				<div class="w3-quarter">
-					<h3 data-nazv="Пока любовь не оживит меня" data-img="zb3.jpg" data-avtor="Кабейн Фокс" data-city="США" data-year="2017" data-janr="Психология, Саморазвитие" data-lang="на русский" data-vozrast="12+" data-embed="begi.pdf" data-text="Многие считают, что революционные идеи приходят либо к гениям, либо к везунчикам. Однако сделать открытие способен каждый. Мыслительные прорывы непредсказуемы, как полет бабочки, но их можно поймать, если...">Сеть и бабочка</h3>
-					<img src="{% static "polls/books/psihology/set.jpg" %}" alt="set' babochka" style="width:100%">
+					<h3 data-nazv="О системе расселение" data-img="zb3.jpg" data-avtor="Сергей Градов" data-city="Россия" data-year="2017" data-janr="Наука и образование" data-lang="на русский" data-vozrast="12+" data-embed="begi.pdf" data-text="Книга повествует об элементах системы расселения, причинах и целях их появления. О городах, их сути и роли в общественных отношениях. О последствиях появления городов. О принципах формирования системы расселения будущего.">О системе расселение</h3>
+					<img src="{% static "polls/books/psihology/set.jpg" %}" alt="o systeme" style="width:100%">
 					<p></p>
 				</div>
-				<!--Huge-->
+				<!--Авиа-->
 				<div class="w3-quarter">
-					<h3 data-nazv="Хюгге" data-img="zb2.jpg" data-avtor="Мари Турелл Содерберг" data-city="США" data-year="2016" data-janr="Психология" data-lang="на русский" data-vozrast="12+" data-embed="begi.pdf" data-text="Хюгге - это умение видеть волшебство в обыкновенном. Для датчан это главная жизненная философия. Чтобы написать эту книгу, Мари Содерберг отправилась в путешествие по всей Дании, чтобы узнать у простых датчан, что для них значит хюгге и как они создают уют...">Хюгге</h3>
+					<h3 data-nazv="Авиамоделирование для начинающих. Инновации" data-img="zb2.jpg" data-avtor="Виктор Никитин" data-city="Россия" data-year="2016" data-janr="Наука и образование" data-lang="на русский" data-vozrast="12+" data-embed="begi.pdf" data-text="Цель данной книги помочь начинающим авиамоделистам разных возрастов освоить азы аэродинамики, конструкции самолёта, управляемости, получить навыки постройки, регулировки, запуска простейших моделей, что поможет сделать дальнейшие шаги в авиамоделизме. Книга построена так, что позволяет разработать Программу и План работы авиамодельного кружка и организовать его работу начинающему руководителю. Руководителям кружков и тем, кто занимается с детьми книга поможет правильно определить (подобрать) тематику занятий и разработать программу кружка.">Авиамоделирование для начинающих. Инновации</h3>
 					<img src="{% static "polls/books/psihology/hugo.jpg" %}" alt="hugo" style="width:100%">
 					<p></p>
 				</div>
+				<!--Политика-->
+				<div class="w3-quarter">
+					<h3 data-nazv="Политика" data-img="zb2.jpg" data-avtor="Неустановленный автор , Аристотель" data-city="Россия" data-year="2016" data-janr="Наука и образование" data-lang="на русский" data-vozrast="12+" data-embed="begi.pdf" data-text="«Средний класс», «экономика», «семья как ячейка государства», «политика», «конституция», «гражданский долг» – мы произносим эти слова и выражения, даже не зная, что самим их существованием обязаны Аристотелю, гениальному мыслителю, который впервые ввел их в оборот в своем произведении «Политика», где и изобрел социальную и политическую философию, впервые в истории выделив изучение общественных отношений в самостоятельную науку.">Политика</h3>
+					<img src="{% static "polls/books/psihology/hugo.jpg" %}" alt="hugo" style="width:100%">
+					<p></p>
+				</div>
+				<!--Записки о революции-->
+				<div class="w3-quarter">
+					<h3 data-nazv="Записки о революции" data-img="zb2.jpg" data-avtor="Николай Николаевич Суханов" data-city="Россия" data-year="2012" data-janr="Наука и образование" data-lang="на русский" data-vozrast="12+" data-embed="begi.pdf" data-text="Несмотря на субъективность, обусловленную политическими взглядами автора, стоявшего на меньшевистских позициях, «Записки о революции» Н.Н.Суханова давно признаны ценным источником по истории революционного движения в Петрограде в 1917 году...">Записки о революции</h3>
+					<img src="{% static "polls/books/psihology/hugo.jpg" %}" alt="hugo" style="width:100%">
+					<p></p>
+				</div>
+
 			</div>
-			<!--End drama-->
+			<!--End nauka-->
 
 			<!--psihology-->
 			<div class="w3-row-padding w3-padding-16 w3-center book" id="psihology">
@@ -348,10 +361,18 @@
 				<!--Huge-->
 				<div class="w3-quarter">
 					<h3 data-nazv="Датское счастья" data-img="zb2.jpg" data-avtor="Мари Турелл Содерберг" data-city="США" data-year="2016" data-janr="Психология" data-lang="на русский" data-vozrast="12+" data-embed="begi.pdf" data-text="Хюгге - это умение видеть волшебство в обыкновенном. Для датчан это главная жизненная философия. Чтобы написать эту книгу, Мари Содерберг отправилась в путешествие по всей Дании, чтобы узнать у простых датчан, что для них значит хюгге и как они создают уют...">Хюгге</h3>
-					<img src="{% static "polls/books/психология/датское счастья.jpg" %}" alt="hugo" style="width:100%">
+					<img src="{% static "polls/books/психология/датское счастья.jpg" %}" alt="hugo" style="width:50%">
 					<p></p>
 				</div>
-			</div>
+                <!--End Huge-->
+
+                <!--Huge-->
+				<div class="w3-quarter">
+					<h3 data-nazv="Чудеса на песке. Песочная игротерапия" data-img="zb2.jpg" data-avtor="Мари Турелл Содерберг" data-city="США" data-year="2016" data-janr="Психология" data-lang="на русский" data-vozrast="12+" data-embed="begi.pdf" data-text="Хюгге - это умение видеть волшебство в обыкновенном. Для датчан это главная жизненная философия. Чтобы написать эту книгу, Мари Содерберг отправилась в путешествие по всей Дании, чтобы узнать у простых датчан, что для них значит хюгге и как они создают уют...">Хюгге</h3>
+					<img src="{% static "polls/books/психология/датское счастья.jpg" %}" alt="hugo" style="width:50%">
+					<p></p>
+				</div>
+            </div>
 			<!--End psihology-->
 			
 			<!--triller-->
@@ -395,99 +416,92 @@
 			<!--End fantastic-->
 
 		</div>
-    </div>
-		<!--End Home-->
+	<!--End Home-->
 
-		<!--About-->
-		<div class="w3-padding-16 w3-center onas">
-			<h4>Мы – команда единомышленников, уверенных в том, что просвещение – залог успеха и благосостояния каждого человека, свободы и процветания государства. 
-				Наша деятельность направлена на то, чтобы предоставить нашим клиентам возможность выбора книг по всем тематическим направлениям, а также создать все условия для того, чтобы книга стала для каждого человека доступным инструментом для достижения успеха, признания и благосостояния.
-				История компании
-				14 декабря 2007 года был открыт первый магазин в рамках проекта «Книжный город», расположенный в ТЦ «Евразия».  Презентацию, посвященную открытию магазина, посетили видные деятели науки и искусства Казахстана, директора издательств Казахстана, журналисты. Украшением церемонии стали ведущие артисты театра Государственного Академического Русского Театра Драмы им М.Ю. Лермонтова,  которые декламировали стихи в образах великих поэтов.
-				6 марта 2010 года открыл свои двери второй магазин «Книжный Город», расположенный по улице Розыбакиева, выше ТРК «Mega center Alma-Ata».
-				15 января 2013 года мы решили объединить магазины, предоставив нашим клиентам ещё более широкий ассортимент и услугу доставки по всем городам Казахстана.   
-				В настоящее время в Алматы успешно работает «Книжный Город», расположенный на ул. Розыбакиева, 281, угол пр. Аль-Фараби.
-				Магазин «Книжный Город»
-			«Книжный город» является самым крупным в Центральной Азии книжным магазином, в котором представлено около 80 000 наименований книг. Большое внимание в ассортименте уделяется детской литературе и развивающим играм для детей. Гордостью магазина является отдел подарочных и эксклюзивных изданий – уникальных книг, выпущенных ограниченным тиражом. В ассортименте имеются также и сопутствующие товары, в числе которых аудиокниги, пазлы, открытки,  закладки, периодические и картографические издания, сувениры.</h4>
-		</div>
-		<!--End About-->
-
-		<!-- Contact -->
-		<div class="w3-row-padding w3-padding-16 w3-center contact">
-			<!--Map lg-->
-			<div id="lg" class="w3-left">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11702.304140987118!2d74.60419660233161!3d42.83956870182744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea43bfa802477f7e!2sKyrgyz+State+University+Of+Construction+And+Architecture.!5e0!3m2!1sen!2skg!4v1513751483438" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
-			<!--Map sm-->
-			<div id="sm" class="w3-left">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11702.304140987118!2d74.60419660233161!3d42.83956870182744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea43bfa802477f7e!2sKyrgyz+State+University+Of+Construction+And+Architecture.!5e0!3m2!1sen!2skg!4v1513751483438" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
-			<!-- End Map -->
-			<div class="w3-right contact">
-				<h4>Отправьте письмо</h4>
-				<p><input class="w3-input" type="text" name="name" placeholder="Ваше Имя"></p>
-				<p><input class="w3-input" type="text" name="e-mal" placeholder="Ваш E-mail"></p>
-				<input class="w3-input" type="text" name="phone" placeholder="Ваш телефонный номер">
-				<p><input class="w3-input" type="text" name="message" placeholder="Ваше сообщение"></p>
-				<p><button class="w3-btn">Отправить</button></p>
-			</div>
-		</div>
-		<!--End Contact-->
-
-
-
-
-
-
-		
-		<!-- Footer -->
-		<footer class="w3-row-padding w3-padding-32">
-			<div class="w3-third">
-				<h3>FOOTER</h3>
-				<p>г. Бишкек, ул. Малдыбаева</p>
-				<p>Телефоны: +996 779 548 597<br>
-					+996 559 548 597<br>
-				+996 709548 597</p>
-				<p>Техподдержка: </p>
-			</div>
-			
-			<div class="w3-third">
-				<h3>свяжитесь с нами</h3>
-				<ul class="w3-ul">
-					<li class="w3-padding-10">
-
-
-						<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter,linkedin,viber,whatsapp,skype,telegram"></div>
-						<span></span><br><br>
-					</li>
-				</ul>
-			</div>
-
-			<div class="w3-third w3-serif">
-				<ul class="w3-ul">
-					<h3>способы оплаты</h3>
-					<li class="w3-padding-16">
-						<img src="{% static "polls/icon/wm.png" %}" class="w3-left w3-margin-right" style="width:65px">
-						<img src="{% static "polls/icon/qw.png" %}" class="w3-left w3-margin-right" style="width:65px">
-						<img src="{% static "polls/icon/mk.png" %}" class="w3-left w3-margin-right" style="width: 65px">
-						<img src="{% static "polls/icon/v.png" %}" class="w3-left w3-margin-right" style="width:65px"><br><br>
-						<img src="{% static "polls/icon/pp.png" %}" class="w3-left w3-margin-right" style="width:80px">
-						<img src="{% static "polls/icon/zk.png" %}" class="w3-left w3-margin-right" style="width:80px">
-						<img src="{% static "polls/icon/elsom.png" %}" class="w3-left w3-margin-right" style="width:80px">
-					</li> 
-				</ul>
-			</div><br><br><br/>
-			<p>© 2016  Kyrgyzstan All rights reserved</p>
-		</footer>
-
-		<!-- End page content -->
+	<!--About-->
+	<div class="w3-padding-16 w3-center onas">
+		<h4>Мы – команда единомышленников, уверенных в том, что просвещение – залог успеха и благосостояния каждого человека, свободы и процветания государства. 
+			Наша деятельность направлена на то, чтобы предоставить нашим клиентам возможность выбора книг по всем тематическим направлениям, а также создать все условия для того, чтобы книга стала для каждого человека доступным инструментом для достижения успеха, признания и благосостояния.
+			История компании
+			14 декабря 2007 года был открыт первый магазин в рамках проекта «Книжный город», расположенный в ТЦ «Евразия».  Презентацию, посвященную открытию магазина, посетили видные деятели науки и искусства Казахстана, директора издательств Казахстана, журналисты. Украшением церемонии стали ведущие артисты театра Государственного Академического Русского Театра Драмы им М.Ю. Лермонтова,  которые декламировали стихи в образах великих поэтов.
+			6 марта 2010 года открыл свои двери второй магазин «Книжный Город», расположенный по улице Розыбакиева, выше ТРК «Mega center Alma-Ata».
+			15 января 2013 года мы решили объединить магазины, предоставив нашим клиентам ещё более широкий ассортимент и услугу доставки по всем городам Казахстана.   
+			В настоящее время в Алматы успешно работает «Книжный Город», расположенный на ул. Розыбакиева, 281, угол пр. Аль-Фараби.
+			Магазин «Книжный Город»
+		«Книжный город» является самым крупным в Центральной Азии книжным магазином, в котором представлено около 80 000 наименований книг. Большое внимание в ассортименте уделяется детской литературе и развивающим играм для детей. Гордостью магазина является отдел подарочных и эксклюзивных изданий – уникальных книг, выпущенных ограниченным тиражом. В ассортименте имеются также и сопутствующие товары, в числе которых аудиокниги, пазлы, открытки,  закладки, периодические и картографические издания, сувениры.</h4>
 	</div>
-	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!--End About-->
 
-	<script src="http://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-	<script src="//yastatic.net/share2/share.js"></script>
+	<!-- Contact -->
+	<div class="w3-row-padding w3-padding-16 w3-center contact">
+		<!--Map lg-->
+		<div id="lg" class="w3-left">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11702.304140987118!2d74.60419660233161!3d42.83956870182744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea43bfa802477f7e!2sKyrgyz+State+University+Of+Construction+And+Architecture.!5e0!3m2!1sen!2skg!4v1513751483438" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<!--Map sm-->
+		<div id="sm" class="w3-left">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11702.304140987118!2d74.60419660233161!3d42.83956870182744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea43bfa802477f7e!2sKyrgyz+State+University+Of+Construction+And+Architecture.!5e0!3m2!1sen!2skg!4v1513751483438" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<!-- End Map -->
+		<div class="w3-right contact">
+			<h4>Отправьте письмо</h4>
+			<p><input class="w3-input" type="text" name="name" placeholder="Ваше Имя"></p>
+			<p><input class="w3-input" type="text" name="e-mal" placeholder="Ваш E-mail"></p>
+			<input class="w3-input" type="text" name="phone" placeholder="Ваш телефонный номер">
+			<p><input class="w3-input" type="text" name="message" placeholder="Ваше сообщение"></p>
+			<p><button class="w3-btn">Отправить</button></p>
+		</div>
+	</div>
+	<!--End Contact-->
+
+	<!-- Footer -->
+	<footer class="w3-row-padding w3-padding-32">
+		<div class="w3-third">
+			<h3>FOOTER</h3>
+			<p>г. Бишкек, ул. Малдыбаева</p>
+			<p>Телефоны: +996 779 548 597<br>
+				+996 559 548 597<br>
+			+996 709548 597</p>
+			<p>Техподдержка: </p>
+		</div>
+
+		<div class="w3-third">
+			<h3>свяжитесь с нами</h3>
+			<ul class="w3-ul">
+				<li class="w3-padding-10">
+
+
+					<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter,linkedin,viber,whatsapp,skype,telegram"></div>
+					<span></span><br><br>
+				</li>
+			</ul>
+		</div>
+
+		<div class="w3-third w3-serif">
+			<ul class="w3-ul">
+				<h3>способы оплаты</h3>
+				<li class="w3-padding-16">
+					<img src="{% static "polls/icon/wm.png" %}" class="w3-left w3-margin-right" style="width:65px">
+					<img src="{% static "polls/icon/qw.png" %}" class="w3-left w3-margin-right" style="width:65px">
+					<img src="{% static "polls/icon/mk.png" %}" class="w3-left w3-margin-right" style="width: 65px">
+					<img src="{% static "polls/icon/v.png" %}" class="w3-left w3-margin-right" style="width:65px"><br><br>
+					<img src="{% static "polls/icon/pp.png" %}" class="w3-left w3-margin-right" style="width:80px">
+					<img src="{% static "polls/icon/zk.png" %}" class="w3-left w3-margin-right" style="width:80px">
+					<img src="{% static "polls/icon/elsom.png" %}" class="w3-left w3-margin-right" style="width:80px">
+				</li> 
+			</ul>
+		</div><br><br><br/>
+		<p>© 2016  Kyrgyzstan All rights reserved</p>
+	</footer>
+
+	<!-- End page content -->
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script src="http://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
 </body>
 </html>
